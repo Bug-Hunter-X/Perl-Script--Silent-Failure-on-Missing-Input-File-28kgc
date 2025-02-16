@@ -1,0 +1,3 @@
+# Perl Script: Silent Failure on Missing Input File
+
+This repository demonstrates a common, yet subtle, error in Perl scripts: silent failure due to improper error handling.  The `bug.pl` script attempts to process an input file but lacks robust error handling. If the input file doesn't exist, the script silently exits without informing the user.  The `bugSolution.pl` provides an improved version with better error handling.
